@@ -44,7 +44,7 @@ public class Main {
         Product coke= new Product(" Coke", 2, "Lemon",3);
 
 
-    //initialzing new vendor using vendor method
+    //initialzing new vendor
         Vendor walmart = new Vendor();
     //using addProduct method from Vendor class to add products to the new vendor
         walmart.addProduct(shirt);
@@ -53,7 +53,7 @@ public class Main {
         walmart.addProduct(socks);
         walmart.addProduct(hats);
 
-    //initialzing new vendor using vendor method
+    //initialzing new vendor
         Vendor target = new Vendor();
     //using addProduct method from Vendor class to add products to the new vendor
         target.addProduct(orange);
@@ -62,7 +62,7 @@ public class Main {
         target.addProduct(apricot);
         target.addProduct(grapes);
 
-    //initialzing new vendor using vendor method
+    //initialzing new vendor 
         Vendor kroger = new Vendor();
     //using addProduct method from Vendor class to add products to the new vendor
         kroger.addProduct(donuts);
