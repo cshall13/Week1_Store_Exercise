@@ -13,23 +13,28 @@ public class Product {
         this.description = description;
         this.quantity=quantity;
     }
+
     //method
     public String getName() {
         return name;
     }
+
     //method
     public int getPrice() {
         return price;
     }
+
     //method
     public String getDescription() {
         return description;
     }
+
     //method
     public int getQuantity() {
         return quantity;
     }
-    //method for printing
+
+    //method used for printing
     public String toString() {
         return "Name: "+ this.name + ", Price: "+this.price+", Description: "+this.description + ", Quantity: "+this.quantity;
     }
